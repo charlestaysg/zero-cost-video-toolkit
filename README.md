@@ -27,7 +27,7 @@ The first run downloads Kokoro-82M (about 330 MB) and Whisper large-v3-turbo (ab
 ## Quick start
 
 ```sh
-git clone <this repo> && cd zero-cost-video-toolkit
+git clone https://github.com/charlestaysg/zero-cost-video-toolkit && cd zero-cost-video-toolkit
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 (cd cartoon/render && npm install)
 
