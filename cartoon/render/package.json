@@ -1,0 +1,18 @@
+{
+  "name": "cartoon-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deterministic frame-by-frame render of film.html with headless Chrome and ffmpeg",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "snap": "node snap.js --count 24 --contact",
+    "render": "node render.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  }
+}

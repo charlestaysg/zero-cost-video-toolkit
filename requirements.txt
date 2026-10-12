@@ -1,0 +1,7 @@
+# Apple Silicon only (MLX). Install into a virtual environment:
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+mlx-audio>=0.5
+soundfile
+numpy
+# Kokoro's English phonemiser
+misaki[en]
